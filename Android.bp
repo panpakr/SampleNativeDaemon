@@ -1,2 +1,4 @@
-cc_binary{
+cc_binary {
+name: "sample_native_daemon",
+
 }
