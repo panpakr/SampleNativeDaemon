@@ -1,4 +1,7 @@
 cc_binary {
-name: "sample_native_daemon",
-srcs: ["sample.cpp"],
+
+ name: "sample_native_daemon",
+ srcs: ["sample.cpp"],
+ init_rc: ["sample_native_daemon.rc"],
+
 }
